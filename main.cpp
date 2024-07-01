@@ -8,6 +8,8 @@ void sum(int a, int b);
 
 int main()
 {
+    print();
+    sum(5, 4);
     
     return 0;
 }
@@ -19,7 +21,7 @@ void print()
 
 void sum(int a, int b)
 {
-    cout << a+b << endl;
+    cout << "Сумма a и b = " << a+b << endl;
 }
 
 
